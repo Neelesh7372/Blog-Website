@@ -1,0 +1,73 @@
+nav{
+    background: var(--color-primary);
+    width: 100vw;
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
+}
+
+nav button{
+    display: none;
+}
+
+.nav_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.3rem solid var(--color-bg);
+}
+
+.nav_logo{
+    font-weight: 600;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_profile{
+    position: relative;
+    cursor: pointer;
+}
+
+.nav_profile ul{
+    position: absolute;
+    top: 125%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+/* Nav ul when nav profile is hovered*/
+.nav_profile:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav_profile ul li a{
+    background: var(--color-gray-900);
+    padding: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.nav_profile ul li:last-child a{
+    background: var(--color-red);
+    color: var(--color-bg);
+}
