@@ -60,3 +60,17 @@
   gap: 4rem;
   margin-bottom: 4rem;
 }
+
+/* Category Buttons */
+.category_btns {
+  padding: 4rem 0;
+  border-top: 2px solid var(--color-gray-900);
+  border-bottom: 2px solid var(--color-gray-900);
+}
+
+.category_btns_container {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
