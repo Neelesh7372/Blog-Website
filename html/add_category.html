@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/forms.css">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"> 
+    
+    <!-- GOOGLE FONTS (Roboto Slab)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html" class="nav_logo">
+                <h2>Bloggers Bay</h2>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <!-- <li><a href="login.html">Login</a></li> -->
+                <li class="nav_profile">
+                    <div class="profile">
+                        <img src="../images/avatar10.jpg">
+                    </div>
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Small and Medium Screen Sizes-->
+            <button id="open_nav_btn"><i class="uil uil-bars"></i></button>
+            <button id="close_nav_btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <section class="form_section">
+        <div class="container form_section_container">
+            <h2>Add Category</h2>
+            <div class="alert_message error">
+                <p>This is an error message</p>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Title">
+                <textarea rows="4" placeholder="Description"></textarea>
+                <button type="submit" class="btn">Add Category</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer_socials">
+            <a href="https://youtube.com" target="_blank"><i class="uil uil-youtube"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="uil uil-twitter"></i></a>
+        </div>
+
+        <div class="container footer_container">
+            <article>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="">Art</a></li>
+                    <li><a href="">Wild Life</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Science and Technology</a></li>
+                    <li><a href="">Music</a></li>
+                    <li><a href="">Food</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Help and Support</h4>
+                <ul>
+                    <li><a href="">Online Support</a></li>
+                    <li><a href="">Helpline Numbers</a></li>
+                    <li><a href="">Our Offices</a></li>
+                    <li><a href="">Emails</a></li>
+                    <li><a href="">Promotions</a></li>
+                    <li><a href="">Socials</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Essentials</h4>
+                <ul>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Content Policy</a></li>
+                    <li><a href="">Language</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; 2023 Blogger's Bay</small>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>

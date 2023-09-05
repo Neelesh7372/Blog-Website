@@ -2,8 +2,8 @@
   --color-primary: #2bbca9;
   --color-primary-light: hsl(165, 100%, 14%);
   --color-primary-variant: #007e87;
-  --color-red: #a5072c;
-  --color-red-light: hsl(346, 87%, 46%, 15%);
+  --color-red: #ff003cab;
+  --color-red-light: hsla(346, 100%, 50%, 0.413);
   --color-green: #00c476;
   --color-green-light: hsl(156, 100%, 38%, 15%);
   --color-gray-900: #004535;

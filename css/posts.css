@@ -124,6 +124,16 @@
   line-height: 1.7;
 }
 
+/* Category Posts */
+
+.category_title {
+  height: 10rem;
+  margin-top: 4rem;
+  background: var(--color-gray-900);
+  display: grid;
+  place-items: center;
+}
+
 /* Category Buttons */
 .category_btns {
   padding: 4rem 0;

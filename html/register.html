@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/forms.css">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"> 
+    
+    <!-- GOOGLE FONTS (Roboto Slab)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="form_section">
+        <div class="container form_section_container">
+            <h2>Register</h2>
+            <div class="alert_message success">
+                <p>This is an error message</p>
+            </div>
+            <form action="" enctype="multipart/form-data">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Create Password">
+                <input type="password" placeholder="Confirm Password">
+                <div class="form_control">
+                    <label for="profile"> Profile Photo</label>
+                    <input type="file" id="profile">
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <small>Already have an account? <a href="login.html">Login</a></small>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
