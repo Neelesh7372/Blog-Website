@@ -78,6 +78,18 @@ img {
   color: var(--color-white);
 }
 
+.btn.sm {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+}
+.btn.danger {
+  background: var(--color-red);
+}
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+}
+
 /*Home Page*/
 
 /* Medium Devices */
