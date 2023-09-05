@@ -58,3 +58,19 @@ footer ul a:hover {
   border-top: 2px solid var(--color-bg);
   margin-top: 2rem;
 }
+
+/* Medium Devices */
+@media screen and (max-width: 1024px) {
+  /* .footer_container {
+    grid-template-columns: 1fr 1fr;
+  } */
+}
+
+/* Small Devices */
+@media screen and (max-width: 600px) {
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+}
