@@ -97,6 +97,33 @@
   color: var(--color-gray-300);
 }
 
+/*Single Post*/
+
+.singlepost {
+  margin: 6rem 0 3rem;
+}
+
+.singlepost_container {
+  width: var(--form-width);
+  background: var(--color-gray-900);
+  padding: 1rem 2rem 2rem;
+  border-radius: var(--card-border-radius-2);
+}
+
+.singlepost_thumbnail {
+  margin: 1.5rem 0 1rem;
+}
+
+.singlecategory_btn {
+  background: var(--color-primary);
+  color: var(--color-gray-900);
+}
+
+.singlepost_container p {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
 /* Category Buttons */
 .category_btns {
   padding: 4rem 0;
@@ -126,6 +153,11 @@
   .search_bar_container {
     width: 60%;
   }
+
+  /*Single Post*/
+  .singlepost_container {
+    width: var(--container-width-lg);
+  }
 }
 
 /* Small Devices */
@@ -149,5 +181,11 @@
   /*Blog*/
   .search_bar_container {
     width: var(--container-width-md);
+  }
+
+  /*Single Post*/
+  .singlepost_container {
+    background-color: transparent;
+    padding: 0;
   }
 }
